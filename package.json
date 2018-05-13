@@ -1,0 +1,27 @@
+{
+  "name": "translator-doinger",
+  "version": "0.1.0",
+  "description": "A simple translator of doinger language",
+  "main": "dist/src/translator-doinger.js",
+  "scripts": {
+    "build": "babel src/translator-doinger.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandoing/translator-doinger.git"
+  },
+  "keywords": [
+    "doinger",
+    "translator",
+    "javascript"
+  ],
+  "author": "Alejandro Uray <urayalejandro@gmail.com> (https://alejandrouray.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
